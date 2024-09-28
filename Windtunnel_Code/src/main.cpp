@@ -23,6 +23,11 @@
 #include <EEPROM.h>
 #endif
 
+#include <Wire.h> 
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27,20,4);  // set the LCD address to 0x27 for a 16 chars and 2 line display
+
 //pins:
 const int HX711_dout = 6; //mcu > HX711 dout pin
 const int HX711_sck = 7; //mcu > HX711 sck pin
@@ -30,20 +35,25 @@ const int HX711_sck = 7; //mcu > HX711 sck pin
 //HX711 constructor:
 HX711_ADC LoadCell(HX711_dout, HX711_sck);
 
-const int calVal_calVal_eepromAdress = 0;
+const int calVal_eepromAdress = 0;
 unsigned long t = 0;
 
 void setup() {
+  lcd.init(); //Im Setup wird der LCD gestartet 
+  lcd.backlight(); //Hintergrundbeleuchtung einschalten (lcd.noBacklight(); schaltet die Beleuchtung aus). 
+  lcd.clear();
   Serial.begin(57600); delay(10);
   Serial.println();
   Serial.println("Starting...");
+  lcd.setCursor(0, 0);
+  lcd.print("Starting");
 
   float calibrationValue; // calibration value
-  calibrationValue = 696.0; // uncomment this if you want to set this value in the sketch
+  // calibrationValue = 696.0; // uncomment this if you want to set this value in the sketch
 #if defined(ESP8266) || defined(ESP32)
   //EEPROM.begin(512); // uncomment this if you use ESP8266 and want to fetch this value from eeprom
 #endif
-  //EEPROM.get(calVal_eepromAdress, calibrationValue); // uncomment this if you want to fetch this value from eeprom
+  EEPROM.get(calVal_eepromAdress, calibrationValue); // uncomment this if you want to fetch this value from eeprom
 
   LoadCell.begin();
   //LoadCell.setReverseOutput();
@@ -90,6 +100,10 @@ void loop() {
       Serial.println(i);
       newDataReady = 0;
       t = millis();
+
+      lcd.setCursor(0, 0); //Hier wird die Position des ersten Zeichens festgelegt. In diesem Fall bedeutet (0,0) das erste Zeichen in der ersten Zeile. 
+      lcd.print("Lift: "); 
+      lcd.print(i);
     }
   }
 
