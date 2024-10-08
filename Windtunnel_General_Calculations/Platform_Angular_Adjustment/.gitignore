@@ -1,0 +1,4 @@
+# git ignores the virtual environment placed in this folder. 
+# name of the folder for the virtual environment has to start with env
+
+env*/
