@@ -1,0 +1,173 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0efa7693-983c-4937-ac81-b023ee8bc007")
+	(paper "A4")
+	(title_block
+		(title "Schematic for wind tunnel measurement system")
+		(rev "0.1.0")
+		(company "Reykjavik University")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 157.48 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9408b1-db76-4d2f-878f-8159e219b164")
+	)
+	(wire
+		(pts
+			(xy 157.48 60.96) (xy 161.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4826e505-eb04-4fcb-a139-aa3250f9b455")
+	)
+	(wire
+		(pts
+			(xy 157.48 58.42) (xy 161.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869f8764-d63d-4bc6-8ea0-18504bf3021a")
+	)
+	(wire
+		(pts
+			(xy 157.48 63.5) (xy 161.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9236ad77-916b-473b-bdac-d269195ec7b0")
+	)
+	(hierarchical_label "A-"
+		(shape bidirectional)
+		(at 107.95 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "069f9b11-a0d6-462b-90dd-b9b00603fc95")
+	)
+	(hierarchical_label "B-"
+		(shape bidirectional)
+		(at 107.95 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17a89613-5080-46c1-9c13-a0bf2682c0e9")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 161.29 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30e76feb-472f-4f69-8fee-91c92e49e123")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 161.29 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fbbaf22-5fe3-4024-8f54-f0a1f80d92cd")
+	)
+	(hierarchical_label "E-"
+		(shape passive)
+		(at 107.95 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b753100-6666-4a60-bbcc-c8a32d61572f")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 161.29 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54196cfd-bfe2-40ae-99b9-2a6a0d9e2536")
+	)
+	(hierarchical_label "A+"
+		(shape bidirectional)
+		(at 107.95 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54be0541-18df-4564-82a0-644ed740fee0")
+	)
+	(hierarchical_label "E+"
+		(shape passive)
+		(at 107.95 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57485db3-4440-4d78-85ac-aca8b87c1aa3")
+	)
+	(hierarchical_label "B+"
+		(shape bidirectional)
+		(at 107.95 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78c82b01-217b-4920-b11a-8578da4bcffc")
+	)
+	(hierarchical_label "VCC"
+		(shape passive)
+		(at 161.29 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8697b91f-c9bd-4dd6-a180-59a61971fe9e")
+	)
+)
