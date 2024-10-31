@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Schematic for wind tunnel measurement system")
-		(rev "0.2.0")
+		(rev "0.3.0")
 		(company "Reykjavik University")
 	)
 	(lib_symbols
@@ -738,16 +738,16 @@
 		(uuid "bee4acac-2473-4c27-8dc7-5e818e42bec9")
 	)
 	(no_connect
+		(at 146.05 96.52)
+		(uuid "0efd3ef6-a718-4c23-98d8-a2ebda92b94a")
+	)
+	(no_connect
 		(at 156.21 53.34)
 		(uuid "14a3e521-d809-4cae-bdda-66ad1456bcf8")
 	)
 	(no_connect
 		(at 171.45 83.82)
 		(uuid "1edf2fd0-fa20-42e3-a159-fc6f431759a0")
-	)
-	(no_connect
-		(at 146.05 88.9)
-		(uuid "229e8163-2852-4ab2-9d04-b9691ee95244")
 	)
 	(no_connect
 		(at 146.05 71.12)
@@ -827,6 +827,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 88.9) (xy 146.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18489497-13e3-4c55-8ca9-ac4967d19816")
+	)
+	(wire
+		(pts
 			(xy 140.97 81.28) (xy 146.05 81.28)
 		)
 		(stroke
@@ -867,16 +877,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 146.05 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1a1cf6-9093-4d37-a481-39701dd16b2c")
-	)
-	(wire
-		(pts
 			(xy 140.97 73.66) (xy 146.05 73.66)
 		)
 		(stroke
@@ -907,16 +907,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 91.44) (xy 146.05 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c63d6e8-c9d5-4f46-a9cd-d156d926ad97")
-	)
-	(wire
-		(pts
 			(xy 158.75 105.41) (xy 161.29 105.41)
 		)
 		(stroke
@@ -924,16 +914,6 @@
 			(type default)
 		)
 		(uuid "92b12cc7-5b8f-4232-83ba-c8c48b53aee9")
-	)
-	(wire
-		(pts
-			(xy 140.97 93.98) (xy 146.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace884f9-396f-430e-8b70-057f41dfae6d")
 	)
 	(wire
 		(pts
@@ -954,6 +934,26 @@
 			(type default)
 		)
 		(uuid "d51aebb0-df66-43ba-826a-e5d1798c3b71")
+	)
+	(wire
+		(pts
+			(xy 140.97 91.44) (xy 146.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ca0225-3c86-42ab-9591-bf7ba8810e07")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 146.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f888ed78-bf26-4c69-9f8f-97e7a2939733")
 	)
 	(hierarchical_label "D6_DOUT_L1"
 		(shape input)
@@ -981,7 +981,7 @@
 	)
 	(hierarchical_label "D12"
 		(shape bidirectional)
-		(at 140.97 93.98 180)
+		(at 140.97 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -993,7 +993,7 @@
 	)
 	(hierarchical_label "D11"
 		(shape bidirectional)
-		(at 140.97 91.44 180)
+		(at 140.97 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1077,7 +1077,7 @@
 	)
 	(hierarchical_label "D13"
 		(shape bidirectional)
-		(at 140.97 96.52 180)
+		(at 140.97 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
