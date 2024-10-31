@@ -89,15 +89,15 @@ void setup()
 
 
 
-  calibrationValue_lift = 429.83; // uncomment this if you want to set this value in the sketch
-  calibrationValue_drag = 1480.38; // uncomment this if you want to set this value in the sketch
-  tareValue_lift = 8370961;
-  tareValue_drag = 8476668;
+  // calibrationValue_lift = 696.0; // uncomment this if you want to set this value in the sketch
+  // calibrationValue_drag = 733.0; // uncomment this if you want to set this value in the sketch
+  tareValue_lift = 8392525;
+  tareValue_drag = 8396492;
 #if defined(ESP8266) || defined(ESP32)
   // EEPROM.begin(512); // uncomment this if you use ESP8266 and want to fetch the value from eeprom
 #endif
-  // EEPROM.get(calVal_eepromAdress_1, calibrationValue_lift); // uncomment this if you want to fetch the value from eeprom
-  // EEPROM.get(calVal_eepromAdress_2, calibrationValue_drag); // uncomment this if you want to fetch the value from eeprom
+  EEPROM.get(calVal_eepromAdress_1, calibrationValue_lift); // uncomment this if you want to fetch the value from eeprom
+  EEPROM.get(calVal_eepromAdress_2, calibrationValue_drag); // uncomment this if you want to fetch the value from eeprom
   // EEPROM.get(tareVal_eepromAdress_1, tareValue_lift); // uncomment this if you want to fetch the value from eeprom
   // EEPROM.get(tareVal_eepromAdress_2, tareValue_drag); // uncomment this if you want to fetch the value from eeprom
 
