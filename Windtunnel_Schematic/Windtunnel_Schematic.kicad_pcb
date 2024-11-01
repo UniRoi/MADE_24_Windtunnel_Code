@@ -1113,7 +1113,7 @@
 		(descr "Through hole angled pin header, 1x09, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x09 2.54mm single row")
 		(property "Reference" "J3"
-			(at 4.385 -2.27 360)
+			(at 4.385 -2.27 0)
 			(layer "F.SilkS")
 			(uuid "47c033a1-0ed9-4597-af59-1d13d6ab9235")
 			(effects
@@ -1124,7 +1124,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09"
-			(at 4.385 22.59 360)
+			(at 4.385 22.59 0)
 			(layer "F.Fab")
 			(uuid "5489d8c7-3ecf-46da-be88-fb75961c38d8")
 			(effects
@@ -5364,7 +5364,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP4"
-			(at -0.037 1.905 360)
+			(at -0.037 1.905 0)
 			(layer "B.SilkS")
 			(uuid "def1a76f-d4e1-451a-9af7-e3d0c758ec53")
 			(effects
@@ -5376,7 +5376,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "B.Fab")
 			(uuid "feb47823-252a-4a77-9396-818a8b4f41b0")
 			(effects

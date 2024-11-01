@@ -14936,7 +14936,7 @@
 			"RERE5GrU/1+cMmVERERERERERK7B/wehRbp1GCfRLwAAAABJRU5ErkJggg=="
 		)
 	)
-	(text_box "Added custom footprint and symbol for xfw-HX711"
+	(text_box "Added custom footprint and symbol for xfw-HX711\nAdd solder jumper from E- to GND, because infineon suggests it "
 		(exclude_from_sim no)
 		(at 21.59 168.91 0)
 		(size 69.85 20.32)
@@ -14954,6 +14954,17 @@
 			(justify left top)
 		)
 		(uuid "fd9bb374-3f94-4665-abb7-7c549765dfbd")
+	)
+	(text "Infineon application note"
+		(exclude_from_sim no)
+		(at 34.544 192.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "file://../Docs/Datasheets/HX711_v0_0_B-2.pdf")
+		)
+		(uuid "0241a1d4-4d0b-474c-b6e3-a5559984d9c2")
 	)
 	(hierarchical_label "A-"
 		(shape bidirectional)
