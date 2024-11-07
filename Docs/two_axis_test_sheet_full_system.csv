@@ -1,0 +1,25 @@
+Loading from top		Loading in drag direction		"Loading in drag direction 
+Stiffer setup"		"Loading in drag direction 
+Height adjusted"		"Loading in drag direction 
+Pulley aligned with measurement point"	
+Load cell 7	Load cell 3	Load cell 7	Load cell 3	Load cell 7	Load cell 3	Load cell 7	Load cell 3	Load cell 7	Load cell 3
+461,75	2,9	3,47	449,5	4,55	450,3	-0,84	443,3	-0,08	449
+462,05	3,05	3,69	447,88	4,5	451,22	-0,97	441,84	-0,94	448,81
+462	2,8	3,46	448,87	4,46	451,29	-0,91	441,83	-0,37	448,81
+462,07	3	3,53	450,28	4,66	450,02	-1,11	441,86	-0,33	449,81
+462,05	2,8	3,39	447,24	4,51	448,91	-1,13	443,35	-0,48	450,47
+462,08	3,02	3,35	446,79	4,38	447,17	-0,96	442,34	-0,36	450,52
+462,01	2,85	3,41	450,4	4,22	449,04	-1,42	442,47	-0,7	449,4
+462,4	2,88	3,55	448,51	4,45	451,04	-1,07	441,53	-0,45	450,48
+462,24	2,89	3,71	450,19	4,38	451,16	-1,19	441,78	-0,5	450,05
+462,14	3,03	3,35	448,32	4,39	451,84	-1,05	441,92	-0,52	450,33
+									
+mean drag	2,922	mean drag	448,798	mean drag	450,199	mean drag	442,222	mean drag	449,768
+mean lift	462,079	mean lift	3,491	mean lift	4,45	mean lift	-1,065	mean lift	-0,473
+std drag	0,0954288565721431	std drag	1,28287697513569	std drag	1,44446414516479	std drag	0,641695670340194	std drag	0,708924067396034
+std lift	0,167892161156429	std lift	0,129310135376586	std lift	0,118602979164381	std lift	0,164266044371116	std lift	0,22886434604125
+mean error	0,550999999999988		16,1820000000001		14,7810000000001		22,538		14,992
+									
+Known mass	462,63	Known mass	464,98			known mass	464,76		
+									
+						Pulley was not in line with attachment point			
