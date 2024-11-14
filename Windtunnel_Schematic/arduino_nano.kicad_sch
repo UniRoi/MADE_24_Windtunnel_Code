@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Schematic for wind tunnel measurement system")
-		(rev "0.3.0")
+		(rev "0.4.0")
 		(company "Reykjavik University")
 	)
 	(lib_symbols
@@ -979,7 +979,7 @@
 		)
 		(uuid "2e41a862-c47e-4232-aa91-cc9dc7c3f0c2")
 	)
-	(hierarchical_label "D12"
+	(hierarchical_label "D11_Tare_Drag"
 		(shape bidirectional)
 		(at 140.97 91.44 180)
 		(fields_autoplaced yes)
@@ -991,7 +991,7 @@
 		)
 		(uuid "4985185c-fb12-4e95-a7b3-5de255f6225a")
 	)
-	(hierarchical_label "D11"
+	(hierarchical_label "D10_Rst_Tare"
 		(shape bidirectional)
 		(at 140.97 88.9 180)
 		(fields_autoplaced yes)
@@ -1075,7 +1075,7 @@
 		)
 		(uuid "efae61a4-ecc0-4d8a-849d-cb39ee5a7701")
 	)
-	(hierarchical_label "D13"
+	(hierarchical_label "D12_Tare_Lift"
 		(shape bidirectional)
 		(at 140.97 93.98 180)
 		(fields_autoplaced yes)

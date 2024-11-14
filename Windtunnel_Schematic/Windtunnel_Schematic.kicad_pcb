@@ -5793,6 +5793,32 @@
 		(layer "Edge.Cuts")
 		(uuid "51b9f67a-e1ae-4c07-9feb-68ddb67f39d8")
 	)
+	(gr_text "Lift"
+		(at 77.47 124.46 0)
+		(layer "F.SilkS")
+		(uuid "8cbb10ee-102d-425e-a79c-a5c3c55fe6e0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Drag"
+		(at 80.01 107.95 0)
+		(layer "F.SilkS")
+		(uuid "a0b0566e-8122-4256-bf47-676fad3a7afe")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 92.16 96.52)
 		(end 94.698428 96.52)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Schematic for wind tunnel measurement system")
-		(rev "0.3.0")
+		(rev "0.4.0")
 		(company "Reykjavik University")
 	)
 	(lib_symbols

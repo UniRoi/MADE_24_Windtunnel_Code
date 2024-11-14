@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Schematic for wind tunnel measurement system")
-		(rev "0.3.0")
+		(rev "0.4.0")
 		(company "Reykjavik University")
 	)
 	(lib_symbols
@@ -14955,14 +14955,13 @@
 		)
 		(uuid "fd9bb374-3f94-4665-abb7-7c549765dfbd")
 	)
-	(text "Infineon application note"
+	(text "Infineon application note can be found in Docs/Datasheets/HX711_v0_0_B-2.pdf"
 		(exclude_from_sim no)
-		(at 34.544 192.786 0)
+		(at 61.214 192.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(href "file://../Docs/Datasheets/HX711_v0_0_B-2.pdf")
 		)
 		(uuid "0241a1d4-4d0b-474c-b6e3-a5559984d9c2")
 	)
