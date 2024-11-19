@@ -1,13 +1,18 @@
-from mpmath import mp
-from mpmath import erfc
+from mpmath import mp, erfc, log
 
-# Set precision
+# decimal places
 mp.dps = 100
 
-# Z-score from excel
-z = 18.68
+# zscore
+z_failure = 18.68
 
-# Tail probability using complementary error function
-prob = 0.5 * erfc(z / mp.sqrt(2))
-print(f"P(Z > {z}) = {prob}")
 
+p_failure = 0.5 * erfc(z_failure / mp.sqrt(2))
+
+p_success = 1 - p_failure
+
+info_content = -log(p_success, 2)
+
+
+print(p_success)
+print(info_content)
